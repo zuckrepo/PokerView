@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB6477D1BF4207C00C7CC02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6477C1BF4207C00C7CC02 /* main.m */; };
+		1DB647801BF4207C00C7CC02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6477F1BF4207C00C7CC02 /* AppDelegate.m */; };
+		1DB647831BF4207C00C7CC02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB647821BF4207C00C7CC02 /* ViewController.m */; };
+		1DB647861BF4207C00C7CC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB647841BF4207C00C7CC02 /* Main.storyboard */; };
+		1DB647881BF4207C00C7CC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB647871BF4207C00C7CC02 /* Assets.xcassets */; };
+		1DB6478B1BF4207C00C7CC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB647891BF4207C00C7CC02 /* LaunchScreen.storyboard */; };
+		1DB647951BF4208700C7CC02 /* PokerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB647941BF4208700C7CC02 /* PokerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DB647781BF4207C00C7CC02 /* PokerViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB6477C1BF4207C00C7CC02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DB6477E1BF4207C00C7CC02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DB6477F1BF4207C00C7CC02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DB647811BF4207C00C7CC02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DB647821BF4207C00C7CC02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DB647851BF4207C00C7CC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DB647871BF4207C00C7CC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DB6478A1BF4207C00C7CC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DB6478C1BF4207C00C7CC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB647931BF4208700C7CC02 /* PokerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokerView.h; sourceTree = "<group>"; };
+		1DB647941BF4208700C7CC02 /* PokerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB647751BF4207C00C7CC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB6476F1BF4207C00C7CC02 = {
+			isa = PBXGroup;
+			children = (
+				1DB647921BF4208700C7CC02 /* PokerView */,
+				1DB6477A1BF4207C00C7CC02 /* PokerViewExample */,
+				1DB647791BF4207C00C7CC02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB647791BF4207C00C7CC02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB647781BF4207C00C7CC02 /* PokerViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB6477A1BF4207C00C7CC02 /* PokerViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				1DB6477E1BF4207C00C7CC02 /* AppDelegate.h */,
+				1DB6477F1BF4207C00C7CC02 /* AppDelegate.m */,
+				1DB647811BF4207C00C7CC02 /* ViewController.h */,
+				1DB647821BF4207C00C7CC02 /* ViewController.m */,
+				1DB647841BF4207C00C7CC02 /* Main.storyboard */,
+				1DB647871BF4207C00C7CC02 /* Assets.xcassets */,
+				1DB647891BF4207C00C7CC02 /* LaunchScreen.storyboard */,
+				1DB6478C1BF4207C00C7CC02 /* Info.plist */,
+				1DB6477B1BF4207C00C7CC02 /* Supporting Files */,
+			);
+			path = PokerViewExample;
+			sourceTree = "<group>";
+		};
+		1DB6477B1BF4207C00C7CC02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB6477C1BF4207C00C7CC02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DB647921BF4208700C7CC02 /* PokerView */ = {
+			isa = PBXGroup;
+			children = (
+				1DB647931BF4208700C7CC02 /* PokerView.h */,
+				1DB647941BF4208700C7CC02 /* PokerView.m */,
+			);
+			name = PokerView;
+			path = ../PokerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB647771BF4207C00C7CC02 /* PokerViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB6478F1BF4207C00C7CC02 /* Build configuration list for PBXNativeTarget "PokerViewExample" */;
+			buildPhases = (
+				1DB647741BF4207C00C7CC02 /* Sources */,
+				1DB647751BF4207C00C7CC02 /* Frameworks */,
+				1DB647761BF4207C00C7CC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerViewExample;
+			productName = PokerViewExample;
+			productReference = 1DB647781BF4207C00C7CC02 /* PokerViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB647701BF4207C00C7CC02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zuckchen;
+				TargetAttributes = {
+					1DB647771BF4207C00C7CC02 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 6SGJ675ZP9;
+					};
+				};
+			};
+			buildConfigurationList = 1DB647731BF4207C00C7CC02 /* Build configuration list for PBXProject "PokerViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DB6476F1BF4207C00C7CC02;
+			productRefGroup = 1DB647791BF4207C00C7CC02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB647771BF4207C00C7CC02 /* PokerViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB647761BF4207C00C7CC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB6478B1BF4207C00C7CC02 /* LaunchScreen.storyboard in Resources */,
+				1DB647881BF4207C00C7CC02 /* Assets.xcassets in Resources */,
+				1DB647861BF4207C00C7CC02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB647741BF4207C00C7CC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB647831BF4207C00C7CC02 /* ViewController.m in Sources */,
+				1DB647951BF4208700C7CC02 /* PokerView.m in Sources */,
+				1DB647801BF4207C00C7CC02 /* AppDelegate.m in Sources */,
+				1DB6477D1BF4207C00C7CC02 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DB647841BF4207C00C7CC02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB647851BF4207C00C7CC02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DB647891BF4207C00C7CC02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB6478A1BF4207C00C7CC02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DB6478D1BF4207C00C7CC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DB6478E1BF4207C00C7CC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB647901BF4207C00C7CC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokerViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zuckchen.com.PokerViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DB647911BF4207C00C7CC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokerViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zuckchen.com.PokerViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB647731BF4207C00C7CC02 /* Build configuration list for PBXProject "PokerViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB6478D1BF4207C00C7CC02 /* Debug */,
+				1DB6478E1BF4207C00C7CC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB6478F1BF4207C00C7CC02 /* Build configuration list for PBXNativeTarget "PokerViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB647901BF4207C00C7CC02 /* Debug */,
+				1DB647911BF4207C00C7CC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB647701BF4207C00C7CC02 /* Project object */;
+}
